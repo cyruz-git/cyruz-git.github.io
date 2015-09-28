@@ -1,0 +1,12 @@
+<div id="cust-header">
+  <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+  <p>{{ site.tagline }}</p>
+</div> <!-- div id="cust-header" -->
+      
+<ul class="nav nav-tabs" role="tablist">
+  <!-- Remember to modify the following "for loop" if the pages are more than 10 -->
+  {% for index in (1..10) %}{% for node in site.pages %}{% if node.menu_index == index %}
+  {% capture urldiff %}{{ page.url | remove:node.url }}{% endcapture %}
+  <li {% if urldiff != page.url %}class="active" {% endif %}><a href="{{ node.url }}">{{ node.title }}</a></li>
+  {% endif %}{% endfor %}{% endfor %}
+</ul>

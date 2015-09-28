@@ -1,0 +1,18 @@
+You may have noticed I’ve also introduced two new optional front-matter variables: updated and noindex. These can be used like so:
+
+---
+permalink: /contact/thankyou/
+layout:    default
+title:     Thank You
+noindex:   true
+---
+
+Doing this will add /contact/thankyou/ to my “Disallow” list in robots.txt and remove it from sitemap.xml entirely.
+
+---
+layout:  post
+title:   Hello World
+updated: 2013-06-22
+---
+
+Doing this will change the lastmod timestamp of the post in sitemap.xml (and later we’ll use this in our rss/atom feed as well).

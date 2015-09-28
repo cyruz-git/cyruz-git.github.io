@@ -1,0 +1,24 @@
+---
+layout: page
+has_title: 1
+---
+
+<div class="cust-blog-post">
+  <h1 class="cust-blog-post-title">
+    <a href="{{ site.blog }}">Blog</a> &raquo; 
+    <a href="{{ page.url }}">{{ page.title }}</a>
+  </h1>
+  <p class="cust-blog-post-meta">
+    <span class="glyphicon glyphicon-calendar"></span> {{ page.date | date_to_long_string }}&nbsp;&nbsp;
+    <span class="glyphicon glyphicon-user"></span> {{ site.author.name }}&nbsp;&nbsp;
+    <span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;{% for tag in page.tags %}<a href="{{ site.tag_index }}#{{ tag }}">{{ tag }}</a> {% endfor %}
+  </p>
+  
+  {{ content }}
+
+</div> <!-- div class="cust-blog-post" -->
+
+<ul class="pager">
+  <li class="previous{% if page.previous == nil %} disabled{% endif %}"><a href="{{ page.previous.url }}">&larr; Older</a></li>
+  <li class="next{% if page.next == nil %} disabled{% endif %}"><a href="{{ page.next.url }}">Newer &rarr;</a></li>
+</ul>

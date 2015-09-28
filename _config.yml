@@ -1,0 +1,30 @@
+# Dependencies
+markdown:           kramdown
+highlighter:        pygments
+include:            ['_pages']
+
+kramdown:
+# input:            GFM
+  hard_wrap:        false
+  parse_block_html: true
+
+# redcarpet:
+# extensions:       ['no_intra_emphasis', 'tables', 'fenced_code_blocks', 'strikethrough', 'lax_spacing', 'superscript', 'underline', 'highlight', 'quote', 'footnotes']
+
+# Permalinks
+permalink:          /blog/:year/:month/:day/:title/
+
+# Setup
+title:              Ciro Principe
+tagline:            IT Manager, Consultant & Programmer
+url:                http://ciroprincipe.info
+baseurl:            /
+blog:               /blog/
+tag_index:          /blog/tags/
+colophon:           /colophon/
+author:
+  name:             Ciro Principe
+  url:              http://ciroprincipe.info
+  email:            admin@ciroprincipe.info
+  facebook:         http://www.facebook.com/ciro.principe
+  twitter:          http://twitter.com/ciroprin
