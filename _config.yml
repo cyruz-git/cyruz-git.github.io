@@ -4,12 +4,17 @@ highlighter:        pygments
 include:            ['_pages']
 
 kramdown:
-# input:            GFM
+  input:            GFM
   hard_wrap:        false
   parse_block_html: true
 
-# redcarpet:
-# extensions:       ['no_intra_emphasis', 'tables', 'fenced_code_blocks', 'strikethrough', 'lax_spacing', 'superscript', 'underline', 'highlight', 'quote', 'footnotes']
+#redcarpet:
+#  extensions:       ['no_intra_emphasis', 'tables', 'fenced_code_blocks', 'strikethrough', 'lax_spacing', 'superscript', 'underline', 'highlight', 'quote', 'footnotes']
+
+# Sass
+sass:
+  sass_dir:         _sass
+  style:            compressed
 
 # Permalinks
 permalink:          /blog/:year/:month/:day/:title/

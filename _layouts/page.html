@@ -4,19 +4,19 @@
   {% include head.html %}
   
   <body>
-    <div class="container cust-container">
+    <div id="cust-container">
 
       {% include navbar.html %}
 
-      <div class="cust-content text-justify">
-        {% if page.has_title != 1 %}<h1 class="cust-page-title">{{ page.title }}</h1>{% endif %}
+      <div id="cust-content" class="text-justify">
+        {% if page.custom_title != 1 %}<h1 class="cust-page-title">{{ page.title }}</h1>{% endif %}
         
         {{ content }}
       
-      </div> <!-- div class="cust-content text-justify" -->
+      </div> <!-- div id="cust-content" class="text-justify" -->
       
       {% include footer.html %}
       
-    </div> <!-- div class="container cust-container" -->
+    </div> <!-- div class="cust-container" -->
   </body>
 </html>

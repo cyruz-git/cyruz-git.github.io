@@ -9,7 +9,7 @@ title: Home
   {% include head.html %}
   
   <body>
-    <div class="container cust-container text-center">
+    <div class="cust-container text-center">
         <div id="cust-header">
           <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
           <p>{{ site.tagline }}</p>
@@ -23,10 +23,10 @@ title: Home
         </div> <!-- div class="btn-group" -->
         
         <div class="cust-social-short">
-          <a class="icon ion-ios7-email-outline" href="mailto:{{ site.author.email }}"></a>&nbsp;&nbsp;
+          <a class="icon ion-ios-email-outline" href="mailto:{{ site.author.email }}"></a>&nbsp;&nbsp;
           <a class="icon ion-social-twitter-outline" href="{{ site.author.twitter }}"></a> &nbsp;
           <a class="icon ion-social-facebook-outline" href="{{ site.author.facebook }}"></a>
-        </div>
+        </div> <!-- div class="cust-social-short" -->
 
         <!-- Google Analytics -->
         <script>
@@ -38,6 +38,6 @@ title: Home
           ga('create', 'UA-21404313-4', 'auto');
           ga('send', 'pageview');
         </script>
-    </div> <!-- div class="container cust-container text-center" -->
+    </div> <!-- div class="cust-container text-center" -->
   </body>
 </html>

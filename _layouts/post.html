@@ -1,22 +1,20 @@
 ---
 layout: page
-has_title: 1
+custom_title: 1
 ---
 
-<div class="cust-blog-post">
-  <h1 class="cust-blog-post-title">
-    <a href="{{ site.blog }}">Blog</a> &raquo; 
-    <a href="{{ page.url }}">{{ page.title }}</a>
-  </h1>
-  <p class="cust-blog-post-meta">
-    <span class="glyphicon glyphicon-calendar"></span> {{ page.date | date_to_long_string }}&nbsp;&nbsp;
-    <span class="glyphicon glyphicon-user"></span> {{ site.author.name }}&nbsp;&nbsp;
-    <span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;{% for tag in page.tags %}<a href="{{ site.tag_index }}#{{ tag }}">{{ tag }}</a> {% endfor %}
-  </p>
+<h1 class="cust-post-title">
+  <a href="{{ site.blog }}">Blog</a> &raquo; 
+  <a href="{{ page.url }}">{{ page.title }}</a>
+</h1>
   
-  {{ content }}
-
-</div> <!-- div class="cust-blog-post" -->
+<h5 class="cust-post-meta">
+  <span class="glyphicon glyphicon-calendar"></span> {{ page.date | date_to_long_string }}&nbsp;&nbsp;
+  <span class="glyphicon glyphicon-user"></span> {{ site.author.name }}&nbsp;&nbsp;
+  <span class="glyphicon glyphicon-tags"></span>&nbsp;&nbsp;{% for tag in page.tags %}<a href="{{ site.tag_index }}#{{ tag }}">{{ tag }}</a> {% endfor %}
+</h5>
+  
+{{ content }}
 
 <ul class="pager">
   <li class="previous{% if page.previous == nil %} disabled{% endif %}"><a href="{{ page.previous.url }}">&larr; Older</a></li>

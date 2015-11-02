@@ -13,10 +13,10 @@ This is a short resume. For a full Curriculum Vitae please contact me by
 ### Education and Training
 
 September 2007
-: Degree in *Computer Science* at Università degli Studi di Salerno.
+:   Degree in *Computer Science* at Università degli Studi di Salerno.
 
 December 2012
-: Global Maritime Distress and Safety System certificate.
+:   Global Maritime Distress and Safety System certificate.
 
 ### Work Experience
 

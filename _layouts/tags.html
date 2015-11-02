@@ -1,6 +1,6 @@
 ---
 layout: page
-has_title: 1
+custom_title: 1
 ---
 
 <h1 class="cust-page-title">
@@ -13,8 +13,9 @@ has_title: 1
 {% assign tag_words = site_tags | split:',' | sort %}
 <!-- tag_words: {{ tag_words }} -->
 
-<div id="cust-blog">
-  <ul class="list-inline cust-tagbox">
+<div class="cust-blog-list">
+
+  <ul class="cust-tagbox">
     {% for item in (0..site.tags.size) %}{% unless forloop.last %}
     {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
     <li><a href="#{{ this_word | cgi_escape }}"><button type="button" class="btn btn-primary">{{ this_word }} <span>{{ site.tags[this_word].size }}</span></button></a></li>
@@ -23,14 +24,15 @@ has_title: 1
 
   {% for item in (0..site.tags.size) %}{% unless forloop.last %}
   {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-  <h4><a href="#{{ this_word | cgi_escape }}">{{ this_word }}</a></h4>
-  {% for post in site.tags[this_word] %}{% if post.title != null %}
-  <div class="cust-blog-item">
-    <h5 class="cust-blog-item-title">
-      <span class="cust-blog-item-date">{{ post.date | date: "%Y.%m.%d" }} &raquo; </span> 
+  <div id="{{ this_word | cgi_escape }}" class="cust-tag-item">
+    <h4><a href="#{{ this_word | cgi_escape }}">{{ this_word }}</a></h4>
+    {% for post in site.tags[this_word] %}{% if post.title != null %}
+    <h5 class="cust-blog-item">
+      <span>{{ post.date | date: "%Y.%m.%d" }} &raquo; </span> 
       <a href="{{ post.url }}">{{ post.title }}</a>
     </h5>
-  </div> <!-- div class="cust-blog-item" -->
-  {% endif %}{% endfor %}
+    {% endif %}{% endfor %}
+  </div>
   {% endunless %}{% endfor %}
-</div> <!-- div class="cust-blog" -->
+
+</div> <!-- div class="cust-blog-list" -->
