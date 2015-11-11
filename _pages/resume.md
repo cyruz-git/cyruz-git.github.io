@@ -45,7 +45,7 @@ January 2012 - Present
   + Delivering all onboard IT services to the ship's users.
   + Management of GMDSS and generic communication devices and C-Band/Ku-Band satellite links.
   + Responsible for the onboard IT warehouse.
-  + Development, deployment and maintenance of a full fledged solution for UDP message broadcasting on the ship network.
+  + Development, deployment and maintenance of a full fledged solution for UDP message broadcasting on the ship's network.
   + Implementation of various integration and automation solutions for daily routine activities.
   
 ### Technical Skills
