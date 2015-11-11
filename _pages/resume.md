@@ -3,7 +3,9 @@ permalink: /resume/
 layout: page
 title: Resume
 menu_index: 2
+published: true
 ---
+
 
 <div class="alert alert-info" role="alert">
 This is a short resume. For a full Curriculum Vitae please contact me by 
@@ -15,8 +17,11 @@ This is a short resume. For a full Curriculum Vitae please contact me by
 September 2007
 :   Degree in *Computer Science* at Università degli Studi di Salerno.
 
-December 2012
+February 2013
 :   Global Maritime Distress and Safety System certificate.
+
+October 2015
+:   ITIL Foundation certificate in IT Service Management.
 
 ### Work Experience
 
@@ -36,8 +41,10 @@ October 2009 - December 2011
 January 2012 - Present
 : *IT Officer* at Costa Crociere S.p.A.
 : + Administration and management of all the onboard ICT facilities.
-  + Issues analysis and management on the onboard network and system infrastructures.
+  + Issues analysis and management on ship's network and system infrastructures.
+  + Delivering all onboard IT services to the ship's users.
   + Management of GMDSS and generic communication devices and C-Band/Ku-Band satellite links.
+  + Responsible for the onboard IT warehouse.
   + Development, deployment and maintenance of a full fledged solution for UDP message broadcasting on the ship network.
   + Implementation of various integration and automation solutions for daily routine activities.
   
@@ -64,4 +71,3 @@ Scripting:
 
 Web Design:
 : XHTML, CSS.
-
