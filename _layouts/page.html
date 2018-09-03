@@ -9,7 +9,7 @@
       {% include navbar.html %}
 
       <div id="cust-content" class="text-justify">
-        {% if page.custom_title != 1 %}<h1 class="cust-page-title">{{ page.title }}</h1>{% endif %}
+        {% if layout.custom_title != 1 %}<h1 class="cust-page-title">{{ page.title }}</h1>{% endif %}
         
         {{ content }}
       
