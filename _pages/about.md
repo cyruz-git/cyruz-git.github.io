@@ -20,8 +20,8 @@ Aside from my addiction to the Information and Communication Technologies I real
 (you know, I'm italian) and I'm fond of thoughtful movies, experimental music and old style videogames.
 </div>
 
-This site is meant as an aggregator for my [resume]({{ site.baseurl }}work/), my 
-[projects]({{ site.baseurl }}projects/) and my [thoughts]({{ site.blog }}). Please read the 
+This site is meant as an aggregator for my [resume]({{ "/" | relative_url }}work/), my 
+[projects]({{ "/" | relative_url }}projects/) and my [thoughts]({{ site.blog }}). Please read the 
 [colophon]({{ site.colophon }}) for a technical description.
 
 ### Contact

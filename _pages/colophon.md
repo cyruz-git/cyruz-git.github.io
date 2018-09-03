@@ -33,7 +33,7 @@ Fonts:
   [Google Fonts API](https://www.google.com/fonts).
 
 Art:
-: [Ionicons](http://ionicons.com/) on the [landing page]({{ site.baseurl }}).
+: [Ionicons](http://ionicons.com/) on the [landing page]({{ "/" | relative_url }}).
 
 Various Guides:
 : [PixelCog](http://pixelcog.com)'s 

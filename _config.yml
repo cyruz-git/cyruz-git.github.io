@@ -3,6 +3,7 @@ markdown:           kramdown
 highlighter:        rouge
 include:            ['_pages']
 
+# Parser
 kramdown:
   input:            GFM
   hard_wrap:        false
@@ -23,7 +24,7 @@ permalink:          /blog/:year/:month/:day/:title/
 title:              Ciro Principe
 tagline:            IT Manager, Consultant & Programmer
 url:                http://ciroprincipe.info
-baseurl:            /
+baseurl:            ""
 blog:               /blog/
 tag_index:          /blog/tags/
 colophon:           /colophon/
