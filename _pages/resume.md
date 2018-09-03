@@ -23,6 +23,9 @@ February 2013
 October 2015
 :   ITIL Foundation certificate in IT Service Management.
 
+March 2018
+:   Prince2 Foundation certificate in Project Management.
+
 ### Work Experience
 
 February 2008 - July 2009
