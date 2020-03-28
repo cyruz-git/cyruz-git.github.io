@@ -21,8 +21,8 @@ Markdown Parser:
 : [kramdown](http://kramdown.gettalong.org/), with GitHub Flavored Markdown enabled.
 
 Tag Generator:
-: <del>[Jekyll Tag Page Generator](https://github.com/danieldevries/jekyll-tag-generator) plugin.</del>After the 
-  migration to GitHub I ditched the plugin for a static tag page. My old implementation is 
+: <del>[Jekyll Tag Page Generator](https://github.com/danieldevries/jekyll-tag-generator) plugin.</del> After the 
+  migration to GitHub I ditched the **Tage Page Generator** plugin for a static tag page. My old implementation is 
   [forked on GitHub](https://github.com/cyruz-git/jekyll-tag-generator).
 
 Style:
@@ -44,4 +44,4 @@ Various Guides:
 The site is <del>self hosted on a [Crissic Virtual Private Server](https://crissic.net/) using 
 [nginx](http://nginx.org/) as a web server and pushed through [rsync](http://rsync.samba.org/)</del> hosted on 
 [GitHub](https://github.com) and pushed through [SourceTree](https://www.sourcetreeapp.com/) from Windows. The 
-authoring is done on Windows with [notepad2-mod](http://xhmikosr.github.io/notepad2-mod/).
+authoring is done on Windows with <del>[notepad2-mod](http://xhmikosr.github.io/notepad2-mod/)</del> [gVim](https://www.vim.org/).

@@ -6,7 +6,7 @@ menu_index: 1
 ---
 
 I'm a graduated *computer scientist* with a vivid curiosity for all IT-related stuff. My interests range from **systems 
-& networks administration** to **programming**, with a strong preference for **scripting** and **automation**.
+& networks administration** to **programming**, with a strong inclination for **scripting** and **automation**.
 
 In the past I worked as a *teacher*, *reviewer*, *supply manager*, *network support engineer* and *IT consultant*, so 
 my working experience is varied and substantial. Actually I work as **IT Officer** for 

@@ -13,4 +13,4 @@ Anyway I'm not a big writer. I did it in the past, as a reviewer, but normally I
 technical thoughts. This time I hope I will have the chance to dedicate some posts to this blog, but please, don't 
 blame my poor English.
 
-So, take your time to visit the site and read the [colophon](/colophon/) for the technical data.
+So, take your time to visit the website and read the [colophon](/colophon/) for the technical information.
